@@ -7,7 +7,6 @@ import Link from "next/link"
 // }
 const Cources = ({ courceList }) => {
     // const courceList = await getCources()
-    console.log(courceList, 'courceList');
     return (
         <div className="cources">
             {courceList.map((cource) => (

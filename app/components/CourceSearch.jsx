@@ -11,7 +11,6 @@ const CourceSearch = ({ getSearchResults }) => {
 
         // Send a GET request to the server's API with the search query
         const res = await fetch(`/api/courses/search?query=${query}`);
-        console.log(res, 'res'); // Log the response to the console
 
         // Parse the response as JSON
         const courses = await res.json();
